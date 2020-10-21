@@ -1,0 +1,25 @@
+@charset 'utf-8'; 
+ 
+
+ /* 웹접근성 */
+ .skip_menu a{
+  display:inline-block;
+  border:2px solid black;
+  border-radius:5px;
+  padding:5px 10px;
+  font-size:20px;
+  background-color:#999;
+  color:#fff;
+  text-decoration:none;
+  position: fixed;
+  left:0;
+  top:0;
+  opacity:0;
+  z-index:1000;
+  }
+  .skip_menu>a:focus{
+    opacity:1;
+  }
+  /* #fp-nav ul li a span{
+    background-color:white;
+  } */
